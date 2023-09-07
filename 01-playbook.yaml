@@ -1,0 +1,5 @@
+- name: this playbook is for pining the nodes
+  hosts: jayadeep
+  tasks:
+  - name: pinging the server
+    ansible.builtin.ping:
